@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const images = [
   'https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=800&auto=format&fit=crop',

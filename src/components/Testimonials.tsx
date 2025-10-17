@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const data = [
   { name: 'Juan Pérez', text: 'Excelente atención, solucionó el problema en el día y a buen precio.' },

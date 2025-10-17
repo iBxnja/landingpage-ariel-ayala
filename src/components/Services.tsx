@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { FaTools, FaOilCan, FaCarBattery, FaSnowflake, FaWrench, FaAlignCenter } from 'react-icons/fa'
 
 const services = [
