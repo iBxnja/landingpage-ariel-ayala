@@ -1,36 +1,60 @@
 
+import { FaWhatsapp, FaMapMarkerAlt, FaClock } from 'react-icons/fa'
 
 export default function Contact() {
   return (
-    <section id="contacto" className="section-pad">
-      <div className="container-pad grid lg:grid-cols-2 gap-10">
-        <div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Contacto</h2>
-          <p className="mt-3 text-gray-600">Escríbenos y te responderemos a la brevedad.</p>
-          <ul className="mt-6 space-y-2 text-sm text-gray-700">
-            <li><strong>Tel/WhatsApp:</strong> <a className="text-primary-700" href="https://wa.me/5491112345678" target="_blank" rel="noreferrer">+54 9 11 1234-5678</a></li>
-            <li><strong>Email:</strong> taller.ariel.ayala@example.com</li>
-            <li><strong>Ubicación:</strong> Tu ciudad, Argentina</li>
-            <li><strong>Horario:</strong> Lun a Vie 9:00–18:00</li>
-          </ul>
+    <section id="contacto" className="section-pad bg-gradient-to-b from-white to-blue-50">
+      <div className="container-pad max-w-4xl">
+        <div className="text-center mb-12">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">¿Necesitás un turno?</h2>
+          <p className="mt-3 text-lg text-gray-600">Comunicate con nosotros, estamos disponibles 24/7</p>
         </div>
-        <form className="card">
-          <div className="grid sm:grid-cols-2 gap-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Nombre</label>
-              <input className="mt-1 w-full rounded-md border px-3 py-2" placeholder="Tu nombre" />
+
+        <div className="grid md:grid-cols-3 gap-6 mb-8">
+          <div className="card text-center hover:shadow-xl transition-shadow">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-100 mb-4">
+              <FaWhatsapp className="text-3xl text-green-600" />
             </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Email</label>
-              <input type="email" className="mt-1 w-full rounded-md border px-3 py-2" placeholder="tu@email.com" />
-            </div>
-            <div className="sm:col-span-2">
-              <label className="block text-sm font-medium text-gray-700">Mensaje</label>
-              <textarea className="mt-1 w-full rounded-md border px-3 py-2 h-32" placeholder="¿En qué podemos ayudarte?" />
-            </div>
+            <h3 className="font-semibold text-gray-900 mb-2">WhatsApp</h3>
+            <a
+              className="text-primary-700 hover:text-primary-800 font-medium text-lg"
+              href="https://wa.me/5493454946866"
+              target="_blank"
+              rel="noreferrer"
+            >
+              03454946866
+            </a>
           </div>
-          <button type="submit" className="btn-primary mt-4">Enviar</button>
-        </form>
+
+          <div className="card text-center hover:shadow-xl transition-shadow">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-4">
+              <FaMapMarkerAlt className="text-3xl text-blue-600" />
+            </div>
+            <h3 className="font-semibold text-gray-900 mb-2">Ubicación</h3>
+            <p className="text-gray-700">Isthilart y Cortada 148<br/>E3200 Concordia, Entre Ríos</p>
+          </div>
+
+          <div className="card text-center hover:shadow-xl transition-shadow">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-orange-100 mb-4">
+              <FaClock className="text-3xl text-orange-600" />
+            </div>
+            <h3 className="font-semibold text-gray-900 mb-2">Horario</h3>
+            <p className="text-primary-700 font-bold text-lg">Abierto 24 horas</p>
+            <p className="text-sm text-gray-600 mt-1">Todos los días</p>
+          </div>
+        </div>
+
+        <div className="text-center">
+          <a
+            href="https://wa.me/5493454946866"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all text-lg"
+          >
+            <FaWhatsapp className="text-2xl" />
+            Solicitar turno por WhatsApp
+          </a>
+        </div>
       </div>
     </section>
   )

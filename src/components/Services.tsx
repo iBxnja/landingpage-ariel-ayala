@@ -1,13 +1,10 @@
 
-import { FaTools, FaOilCan, FaCarBattery, FaSnowflake, FaWrench, FaAlignCenter } from 'react-icons/fa'
+import { FaTools, FaCogs, FaCar } from 'react-icons/fa'
 
 const services = [
-  { icon: FaWrench, title: 'Mecánica general', desc: 'Diagnóstico, reparación y mantenimiento para todas las marcas.' },
-  { icon: FaAlignCenter, title: 'Alineación y balanceo', desc: 'Conducción estable y desgaste parejo de neumáticos.' },
-  { icon: FaOilCan, title: 'Cambio de aceite y filtros', desc: 'Servicio rápido y control por seguridad.' },
-  { icon: FaCarBattery, title: 'Baterías y electricidad', desc: 'Revisión de carga, alternador y arranque.' },
-  { icon: FaTools, title: 'Frenos y suspensión', desc: 'Pastillas, discos, amortiguadores y más.' },
-  { icon: FaSnowflake, title: 'Aire acondicionado', desc: 'Carga de gas, limpieza y reparación.' },
+  { icon: FaCogs, title: 'Distribución', desc: 'Servicio completo de distribución automotor.' },
+  { icon: FaTools, title: 'Frenos', desc: 'Reparación y mantenimiento de sistemas de frenos.' },
+  { icon: FaCar, title: 'Tren delantero', desc: 'Reparación y ajuste del tren delantero.' },
 ]
 
 export default function Services() {

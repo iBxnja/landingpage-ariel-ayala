@@ -1,12 +1,12 @@
 
 
 const images = [
-  'https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=800&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?q=80&w=800&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1515923162042-1f4a71faf4d5?q=80&w=800&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=800&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=800&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=800&auto=format&fit=crop',
+  '/assets/foto3.png',
+  '/assets/foto4.png',
+  '/assets/foto5.png',
+  '/assets/foto6.png',
+  '/assets/foto7.png',
+  '/assets/foto8.png',
 ]
 
 export default function Gallery() {
